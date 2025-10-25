@@ -28,6 +28,8 @@ export const QuizComponent = ({ questions, onShowLeaderboard }) => {
     }
   }, [quizState.gameCompleted]);
 
+  console.log("quizState", quizState)
+
   const handleRestart = () => {
     setShowScore(false);
     restartQuiz();

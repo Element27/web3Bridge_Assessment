@@ -17,7 +17,7 @@ export const useQuestions = (questions) => {
   const handleAnswerSelect = useCallback((answerIndex) => {
     if (quizState.isAnswered) return;
 
-    const isCorrect = answerIndex === currentQuestion.correctAnswer;
+    const isCorrect = answerIndex === currentQuestion.answer;
 
     setQuizState(prev => ({
       ...prev,

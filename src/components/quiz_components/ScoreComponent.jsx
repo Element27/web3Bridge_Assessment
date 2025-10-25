@@ -11,6 +11,9 @@ export const ScoreComponent = ({
 }) => {
   const percentage = (score / totalQuestions) * 100;
 
+  console.log(score)
+  console.log(totalQuestions)
+
   const getScoreMessage = () => {
     if (percentage >= 90) return "Outstanding! 🎉";
     if (percentage >= 70) return "Excellent! 👏";
