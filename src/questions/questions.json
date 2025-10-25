@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "question": "Every Web3 coin must have which of these?",
+      "answer": "symbol",
+      "options": [
+        "bank",
+        "token",
+        "symbol",
+        "wallet"
+      ],
+      "id": 1,
+      "point": 1
+    },
+    {
+      "question": "What is the main technology behind Web3?",
+      "answer": "Blockchain",
+      "options": [
+        "Database",
+        "Blockchain",
+        "Server",
+        "Cloud"
+      ],
+      "id": 2,
+      "point": 1
+    },
+    {
+      "question": "Which of these is a popular cryptocurrency?",
+      "answer": "Bitcoin",
+      "options": [
+        "PayPal",
+        "Bitcoin",
+        "Swift",
+        "Visa"
+      ],
+      "id": 3,
+      "point": 1
+    },
+    {
+      "question": "What does DeFi stand for in the Web3 space?",
+      "answer": "Decentralized Finance",
+      "options": [
+        "Defined Finance",
+        "Default Finance",
+        "Decentralized Finance",
+        "Definite Finance"
+      ],
+      "id": 4,
+      "point": 1
+    },
+    {
+      "question": "What is the native cryptocurrency of the Ethereum network?",
+      "answer": "Ether",
+      "options": [
+        "Doge",
+        "BNB",
+        "Ether",
+        "Bitcoin"
+      ],
+      "id": 5,
+      "point": 1
+    },
+    {
+      "question": "A smart contract is stored and executed on which system?",
+      "answer": "Blockchain",
+      "options": [
+        "Cloud Server",
+        "Database",
+        "Blockchain",
+        "Spreadsheet"
+      ],
+      "id": 6,
+      "point": 1
+    },
+    {
+      "question": "What does NFT stand for?",
+      "answer": "Non-Fungible Token",
+      "options": [
+        "Network File Token",
+        "Non-Fungible Token",
+        "Next Future Technology",
+        "New Financial Token"
+      ],
+      "id": 7,
+      "point": 1
+    },
+    {
+      "question": "Which blockchain is known for its focus on smart contracts?",
+      "answer": "Ethereum",
+      "options": [
+        "Litecoin",
+        "Bitcoin",
+        "Ripple",
+        "Ethereum"
+      ],
+      "id": 8,
+      "point": 1
+    },
+    {
+      "question": "In Web3, what does 'decentralization' mean?",
+      "answer": "Control is distributed among users",
+      "options": [
+        "A single authority controls data",
+        "No one uses the system",
+        "It runs offline",
+        "Control is distributed among users"
+      ],
+      "id": 9,
+      "point": 1
+    },
+    {
+      "question": "Which of these is a decentralized storage platform?",
+      "answer": "IPFS",
+      "options": [
+        "Google Drive",
+        "Dropbox",
+        "IPFS",
+        "iCloud"
+      ],
+      "id": 10,
+      "point": 1
+    },
+    {
+      "question": "What is used to sign blockchain transactions securely?",
+      "answer": "Private Key",
+      "options": [
+        "PIN",
+        "Password",
+        "Public Key",
+        "Private Key"
+      ],
+      "id": 11,
+      "point": 1
+    },
+    {
+      "question": "Which network introduced the concept of 'gas fees'?",
+      "answer": "Ethereum",
+      "options": [
+        "Cardano",
+        "Bitcoin",
+        "Ethereum",
+        "Solana"
+      ],
+      "id": 12,
+      "point": 1
+    },
+    {
+      "question": "DAO stands for what in the crypto world?",
+      "answer": "Decentralized Autonomous Organization",
+      "options": [
+        "Dynamic Account Option",
+        "Digital Asset Operation",
+        "Distributed Access Office",
+        "Decentralized Autonomous Organization"
+      ],
+      "id": 13,
+      "point": 1
+    },
+    {
+      "question": "Which of the following represents the smallest unit of Bitcoin?",
+      "answer": "Satoshi",
+      "options": [
+        "Bit",
+        "Ether",
+        "Satoshi",
+        "Lite"
+      ],
+      "id": 14,
+      "point": 1
+    },
+    {
+      "question": "What is the process of verifying transactions on a blockchain called?",
+      "answer": "Mining",
+      "options": [
+        "Storing",
+        "Hashing",
+        "Uploading",
+        "Mining"
+      ],
+      "id": 15,
+      "point": 1
+    },
+    {
+      "question": "What does a crypto wallet store?",
+      "answer": "Private and Public Keys",
+      "options": [
+        "Private and Public Keys",
+        "Personal ID",
+        "Bank Details",
+        "Coins"
+      ],
+      "id": 16,
+      "point": 1
+    },
+    {
+      "question": "Which consensus algorithm does Bitcoin use?",
+      "answer": "Proof of Work",
+      "options": [
+        "Proof of Stake",
+        "Proof of Authority",
+        "Proof of Work",
+        "Delegated Proof"
+      ],
+      "id": 17,
+      "point": 1
+    },
+    {
+      "question": "Which consensus algorithm is more energy efficient?",
+      "answer": "Proof of Stake",
+      "options": [
+        "Proof of Stake",
+        "Proof of Work",
+        "Proof of Authority",
+        "Proof of Concept"
+      ],
+      "id": 18,
+      "point": 1
+    },
+    {
+      "question": "What is a DApp in Web3?",
+      "answer": "Decentralized Application",
+      "options": [
+        "Default Application",
+        "Digital App",
+        "Data Application",
+        "Decentralized Application"
+      ],
+      "id": 19,
+      "point": 1
+    },
+    {
+      "question": "Which platform allows developers to create tokens using ERC-20 standard?",
+      "answer": "Ethereum",
+      "options": [
+        "Ripple",
+        "Ethereum",
+        "Bitcoin",
+        "Solana"
+      ],
+      "id": 20,
+      "point": 1
+    }
+  ]
+}
