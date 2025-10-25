@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Brain, Star, Play, Loader2, AlertCircle } from 'lucide-react';
-import { Quiz } from './components/quiz_components/QuizComponent';
+import { QuizComponent } from './components/quiz_components/QuizComponent';
 import { LeaderboardComponent } from './components/quiz_components/LeaderBoardComponent';
 import { Button } from './components/ui/button';
 import question from "./questions/questions.json";
@@ -13,7 +13,8 @@ function App() {
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [leaderboard, setLeaderboard] = useState([]);
 
-  console.log("questions", questions)
+  console.log("questions", question.questions)
+  // console.log("prase questions", JSON.parse(question))
 
   useEffect(() => {
     getQuestions();
@@ -22,7 +23,10 @@ function App() {
 
   const getQuestions = () => {
     setLoading(true)
-    const shuffled = [...question];
+    // const allQuestions = JSON.parse(question);
+
+    // console.log("allQuestions", allQuestions);
+    const shuffled = [...question.questions];
 
     // Fisher-Yates shuffle algorithm
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -31,8 +35,9 @@ function App() {
     }
 
     // Return the first 'count' questions
+    console.log("shuffled", shuffled)
 
-    if (shuffled.length === 0 || shuffled.slice.length < 5) {
+    if (shuffled.length === 0 || shuffled.length < 5) {
       setLoading(false)
       setError("Something went wrong")
     } else {
@@ -152,12 +157,10 @@ function App() {
           <div className="mt-8 pt-6 border-t border-gray-200">
             <h3 className="font-semibold text-gray-800 mb-3">Features:</h3>
             <div className="grid grid-cols-2 gap-2 text-sm text-gray-600">
-              <div>✅ Multiple Categories</div>
-              <div>✅ Difficulty Levels</div>
               <div>✅ Timer</div>
               <div>✅ Score Tracking</div>
               <div>✅ Instant Feedback</div>
-              <div>✅ Leaderboard</div>
+              {/* <div>✅ Leaderboard</div> */}
             </div>
           </div>
         </div>
@@ -166,7 +169,7 @@ function App() {
   }
 
   return (
-    <Quiz
+    <QuizComponent
       questions={questions}
       onShowLeaderboard={() => setShowLeaderboard(true)}
     />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Clock, CheckCircle2, XCircle } from 'lucide-react';
 
 
+
 export const QuestionComponent = ({
   question,
   selectedAnswer,
@@ -9,15 +10,19 @@ export const QuestionComponent = ({
   timeLeft,
   onAnswerSelect,
 }) => {
+
+  console.log("current question", question)
+  console.log("current selectedAnswer", selectedAnswer)
+  console.log("current selectedAnswer", question.answer)
   const getOptionClasses = (index) => {
     let baseClasses = "w-full p-4 text-left rounded-lg border-2 transition-all duration-200 ";
 
     if (!isAnswered) {
       baseClasses += "hover:bg-blue-50 hover:border-blue-300 border-gray-200";
     } else {
-      if (index === question.correctAnswer) {
+      if (index === question.answer) {
         baseClasses += " bg-green-100 border-green-500 text-green-800";
-      } else if (index === selectedAnswer && index !== question.correctAnswer) {
+      } else if (index === selectedAnswer && index !== question.answer) {
         baseClasses += " bg-red-100 border-red-500 text-red-800";
       } else {
         baseClasses += " border-gray-200 opacity-70";
@@ -81,10 +86,10 @@ export const QuestionComponent = ({
             >
               <div className="flex items-center justify-between">
                 <span>{option}</span>
-                {isAnswered && index === question.correctAnswer && (
+                {isAnswered && index === question.answer && (
                   <CheckCircle2 size={20} className="text-green-600" />
                 )}
-                {isAnswered && index === selectedAnswer && index !== question.correctAnswer && (
+                {isAnswered && index === selectedAnswer && index !== question.answer && (
                   <XCircle size={20} className="text-red-600" />
                 )}
               </div>
@@ -95,20 +100,20 @@ export const QuestionComponent = ({
 
       {/* Feedback */}
       {isAnswered && (
-        <div className={`p-4 rounded-lg ${selectedAnswer === question.correctAnswer
+        <div className={`p-4 rounded-lg ${selectedAnswer === question.answer
           ? 'bg-green-100 border border-green-300 text-green-800'
           : 'bg-red-100 border border-red-300 text-red-800'
           }`}>
           <div className="flex items-center space-x-2">
-            {selectedAnswer === question.correctAnswer ? (
+            {selectedAnswer === question.answer ? (
               <CheckCircle2 size={20} />
             ) : (
               <XCircle size={20} />
             )}
             <span className="font-medium">
-              {selectedAnswer === question.correctAnswer
+              {selectedAnswer === question.answer
                 ? 'Correct! Well done.'
-                : `Incorrect. The correct answer is: ${question.options[question.correctAnswer]}`
+                : `Incorrect. The correct answer is: ${question.options[question.answer]}`
               }
             </span>
           </div>

@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "Every Web3 coin must have which of these?",
-      "answer": "symbol",
+      "answer": 2,
       "options": [
         "bank",
         "token",
@@ -14,7 +14,7 @@
     },
     {
       "question": "What is the main technology behind Web3?",
-      "answer": "Blockchain",
+      "answer": 1,
       "options": [
         "Database",
         "Blockchain",
@@ -26,7 +26,7 @@
     },
     {
       "question": "Which of these is a popular cryptocurrency?",
-      "answer": "Bitcoin",
+      "answer": 1,
       "options": [
         "PayPal",
         "Bitcoin",
@@ -38,7 +38,7 @@
     },
     {
       "question": "What does DeFi stand for in the Web3 space?",
-      "answer": "Decentralized Finance",
+      "answer": 2,
       "options": [
         "Defined Finance",
         "Default Finance",
@@ -50,7 +50,7 @@
     },
     {
       "question": "What is the native cryptocurrency of the Ethereum network?",
-      "answer": "Ether",
+      "answer": 2,
       "options": [
         "Doge",
         "BNB",
@@ -62,7 +62,7 @@
     },
     {
       "question": "A smart contract is stored and executed on which system?",
-      "answer": "Blockchain",
+      "answer": 2,
       "options": [
         "Cloud Server",
         "Database",
@@ -74,7 +74,7 @@
     },
     {
       "question": "What does NFT stand for?",
-      "answer": "Non-Fungible Token",
+      "answer": 1,
       "options": [
         "Network File Token",
         "Non-Fungible Token",
@@ -86,7 +86,7 @@
     },
     {
       "question": "Which blockchain is known for its focus on smart contracts?",
-      "answer": "Ethereum",
+      "answer": 3,
       "options": [
         "Litecoin",
         "Bitcoin",
@@ -98,7 +98,7 @@
     },
     {
       "question": "In Web3, what does 'decentralization' mean?",
-      "answer": "Control is distributed among users",
+      "answer": 3,
       "options": [
         "A single authority controls data",
         "No one uses the system",
@@ -110,7 +110,7 @@
     },
     {
       "question": "Which of these is a decentralized storage platform?",
-      "answer": "IPFS",
+      "answer": 2,
       "options": [
         "Google Drive",
         "Dropbox",
@@ -122,7 +122,7 @@
     },
     {
       "question": "What is used to sign blockchain transactions securely?",
-      "answer": "Private Key",
+      "answer": 3,
       "options": [
         "PIN",
         "Password",
@@ -134,7 +134,7 @@
     },
     {
       "question": "Which network introduced the concept of 'gas fees'?",
-      "answer": "Ethereum",
+      "answer": 2,
       "options": [
         "Cardano",
         "Bitcoin",
@@ -146,7 +146,7 @@
     },
     {
       "question": "DAO stands for what in the crypto world?",
-      "answer": "Decentralized Autonomous Organization",
+      "answer": 3,
       "options": [
         "Dynamic Account Option",
         "Digital Asset Operation",
@@ -158,7 +158,7 @@
     },
     {
       "question": "Which of the following represents the smallest unit of Bitcoin?",
-      "answer": "Satoshi",
+      "answer": 2,
       "options": [
         "Bit",
         "Ether",
@@ -170,7 +170,7 @@
     },
     {
       "question": "What is the process of verifying transactions on a blockchain called?",
-      "answer": "Mining",
+      "answer": 3,
       "options": [
         "Storing",
         "Hashing",
@@ -182,7 +182,7 @@
     },
     {
       "question": "What does a crypto wallet store?",
-      "answer": "Private and Public Keys",
+      "answer": 0,
       "options": [
         "Private and Public Keys",
         "Personal ID",
@@ -194,7 +194,7 @@
     },
     {
       "question": "Which consensus algorithm does Bitcoin use?",
-      "answer": "Proof of Work",
+      "answer": 3,
       "options": [
         "Proof of Stake",
         "Proof of Authority",
@@ -206,7 +206,7 @@
     },
     {
       "question": "Which consensus algorithm is more energy efficient?",
-      "answer": "Proof of Stake",
+      "answer": 0,
       "options": [
         "Proof of Stake",
         "Proof of Work",
@@ -218,7 +218,7 @@
     },
     {
       "question": "What is a DApp in Web3?",
-      "answer": "Decentralized Application",
+      "answer": 3,
       "options": [
         "Default Application",
         "Digital App",
@@ -230,7 +230,7 @@
     },
     {
       "question": "Which platform allows developers to create tokens using ERC-20 standard?",
-      "answer": "Ethereum",
+      "answer": 1,
       "options": [
         "Ripple",
         "Ethereum",

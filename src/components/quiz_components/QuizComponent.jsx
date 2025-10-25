@@ -7,7 +7,7 @@ import { useQuestions } from '../../hooks/useQuestion';
 import { LeaderboardComponent } from './LeaderBoardComponent';
 
 
-export const Quiz = ({ questions, onShowLeaderboard }) => {
+export const QuizComponent = ({ questions, onShowLeaderboard }) => {
   const [showScore, setShowScore] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
 
